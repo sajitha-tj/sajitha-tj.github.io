@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.resume .resume-title{
+    font-size: x-large;
+    font-weight: 700;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.resume .resume-item{
+    position: relative;
+    padding: 0 0 20px 20px;
+    border-left: 3px slateblue solid;
+}
+
+.resume .resume-item h4 {
+    font-size: large;
+    font-weight: 600;
+    line-height: 18px;
+    color: darkslateblue;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+    font-size: small;
+    font-weight: 500;
+    background-color: #f7f7f7;
+    padding: 5px 10px;
+    width: fit-content;
+    /* margin-bottom: 4px; */
+}
+
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: -9px;
+    border: 3px slateblue solid;
+    border-radius: 100%;
+    background-color: white;
+}

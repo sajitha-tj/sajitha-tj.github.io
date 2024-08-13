@@ -5,7 +5,7 @@ import { LuMail } from 'react-icons/lu'
 
 const Hero = () => {
   return (
-    <div className='w-full h-screen bg-black text-white pt-36 md:pl-40 pb-20 overflow-hidden'>
+    <div className='w-full h-screen bg-black text-white pt-36 md:pl-40 px-10 pb-20 relative overflow-hidden'>
         <div className='pt-[22vh] md:pt-36 flex flex-col items-center md:items-start relative z-10'>
             <div className='text-5xl md:text-6xl leading-tight md:leading-snug tracking-wide text-center md:text-left font-bold'>
                 <h1>Hey There! I&#39;m</h1>
