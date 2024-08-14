@@ -4,6 +4,12 @@ import { TbExternalLink } from 'react-icons/tb'
 const Resume = () => {
   return (
     <div className='py-20 resume'>
+        <div className='w-full mb-12'>
+            <h2 className='text-3xl font-bold uppercase mx-auto w-fit mb-4'>Resume</h2>
+            <div className='h-[1px] w-28 mx-auto relative bg-violet-200'>
+                <div className='h-[3px] w-10 bg-violet-600 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' />
+            </div>
+        </div>
         <div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6'>
             {resumeItems.map((resumeItem, idx)=>(
                 <div key={idx}>
@@ -18,7 +24,7 @@ const Resume = () => {
                         <h5 className='inline-flex'>
                             {item.itemSubHeading}
                             {item.link != "" ?
-                            <a className='ml-1 text-sm' href={item.link}><TbExternalLink /></a>
+                            <a className='ml-1 text-sm' href={item.link} target='_blank'><TbExternalLink /></a>
                             : ""}
                         </h5>
                     </div>

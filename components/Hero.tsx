@@ -5,11 +5,11 @@ import { LuMail } from 'react-icons/lu'
 
 const Hero = () => {
   return (
-    <div className='w-full h-screen bg-black text-white pt-36 md:pl-40 px-10 pb-20 relative overflow-hidden'>
+    <div className='w-full h-screen bg-black text-white pt-36 md:px-40 px-10 pb-20 relative overflow-hidden'>
         <div className='pt-[22vh] md:pt-36 flex flex-col items-center md:items-start relative z-10'>
-            <div className='text-5xl md:text-6xl leading-tight md:leading-snug tracking-wide text-center md:text-left font-bold'>
+            <div className='text-4xl md:text-6xl leading-tight md:leading-snug tracking-wide text-center md:text-left font-bold'>
                 <h1>Hey There! I&#39;m</h1>
-                <h1 className='text-violet-200'>Sajitha Jayawickrama</h1>
+                <h1 className='text-violet-300'>Sajitha Jayawickrama</h1>
             </div>
             <div>
                 <p className='uppercase tracking-widest text-xs mt-3 text-center md:text-left leading-snug'>
@@ -19,16 +19,16 @@ const Hero = () => {
             {/* links */}
             <div className='w-full flex justify-center md:justify-start'>
             <div className='mt-3 text-lg w-fit flex gap-4'>
-                <a href='https://github.com/sajitha-tj/' className='transition-colors hover:text-violet-400 duration-100' target='_blank'>
+                <a href='https://github.com/sajitha-tj/' className='transition-colors hover:text-violet-300 duration-100' target='_blank'>
                     <FaGithub />
                 </a>
-                <a href='https://www.linkedin.com/in/sajitha-tj/' className='transition-colors hover:text-violet-400 duration-100' target='_blank'>
+                <a href='https://www.linkedin.com/in/sajitha-tj/' className='transition-colors hover:text-violet-300 duration-100' target='_blank'>
                     <FaLinkedin />
                 </a>
-                <a href='https://www.behance.net/sajitha_jayawickrama' className='transition-colors hover:text-violet-400 duration-100' target='_blank'>
+                <a href='https://www.behance.net/sajitha_jayawickrama' className='transition-colors hover:text-violet-300 duration-100' target='_blank'>
                     <FaBehance />
                 </a>
-                <a href='mailto:sajitha.21@cse.mrt.ac.lk' className='transition-colors hover:text-violet-400 duration-100' target='_blank'>
+                <a href='mailto:sajitha.21@cse.mrt.ac.lk' className='transition-colors hover:text-violet-300 duration-100' target='_blank'>
                     <LuMail />
                 </a>
             </div>

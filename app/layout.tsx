@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Sajitha Jayawickrama",
-  description: "CyberSecurity Enthusiast | Developer | Designer",
+  description: "Hey! I'm Sajitha Jayawickrama, a B.Sc. undergraduate at Computer Science and Engineering (specializing cybersecurity), University of Moratuwa. I am a cybersecurity enthusiast, a software engineer and a graphic designer. This is my personal portfolio showcasing projects and achievements.",
 };
 
 export default function RootLayout({
