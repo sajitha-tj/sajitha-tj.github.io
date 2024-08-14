@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Resume Component Styles */
+
 .resume .resume-title{
     font-size: x-large;
     font-weight: 700;
@@ -42,4 +45,24 @@
     border: 3px slateblue solid;
     border-radius: 100%;
     background-color: white;
+}
+
+/* Projects Component Styles */
+
+.project-filter-btns{
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 600;
+    padding: 0 .5rem;
+}
+
+.project-filter-btns:hover{
+    color: darkslateblue;
+    border-bottom: 2px solid white;
+}
+
+.filter-btn-active, .filter-btn-active:hover{
+    color: darkslateblue;
+    border-bottom: 2px solid darkslateblue;
+    transition: all .6s ease-in-out;
 }
