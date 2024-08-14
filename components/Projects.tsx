@@ -120,7 +120,7 @@ const cards = [
     name: "B'Day Post Generator",
     description: 'This is a simple python program which was used to generate birthday wish posts(flyers) for the Members of Sasnaka Sansada.',
     category: "Scripts",
-    thumbnail: "/images/projects/shellify-image.png",
+    thumbnail: "/images/projects/bdaypost-image.png",
     icons: <FaPython />,
     link: "https://github.com/sajitha-tj/b-day-post-generator"
   },
@@ -130,7 +130,7 @@ const cards = [
     name: "Hotel Reservation System",
     description: 'This Hotel Management System has the potential to Register new Guests, reserve rooms for them and calculates the bill on check-out. Users (Hotel Crew) can log in to the system to make changes.',
     category: "Software",
-    thumbnail: "/images/projects/shellify-image.png",
+    thumbnail: "/images/projects/hotel-management-image.png",
     icons: <RiJavaLine />,
     link: "https://github.com/sajitha-tj/Hotel-Reservation-System"
   },
