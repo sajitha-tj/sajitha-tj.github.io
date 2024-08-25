@@ -53,7 +53,7 @@ const Projects = () => {
       </div>
       <p className='text-center mb-8'>Explore my work in software development, web development and graphic designing.</p>
       {/* filter buttons */}
-      <div className='w-full flex justify-center gap-4 tracking-wider mb-3'>
+      <div className='w-full flex justify-center gap-4 tracking-wider mb-3 overflow-scroll md:overflow-hidden'>
         {projectFilters.map((filter, i) => (
           <button
             key={i}

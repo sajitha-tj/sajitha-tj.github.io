@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className='pt-2 pb-8'>
         <div className='flex flex-col justify-center items-center mb-20'>
-            <h2 className='text-3xl md:text-5xl md:w-2/3 leading-tight md:leading-tight tracking-wide text-center font-bold mb-6'>
+            <h2 className='text-3xl md:text-5xl lg:w-2/3 leading-tight md:leading-tight tracking-wide text-center font-bold mb-6'>
                 Let&apos;s connect and build something amazing together.
             </h2>
             <a
@@ -16,8 +16,8 @@ const Footer = () => {
                 connect on LinkedIn
             </a>
         </div>
-        <div className='flex items-center justify-between mt-10'>
-            <div className='text-xs text-left'>
+        <div className='flex flex-col md:flex-row items-center justify-between mt-10'>
+            <div className='text-xs text-center md:text-left mb-2 md:mb-0'>
                 <p>
                     Designed and Developed by Sajitha Jayawickrama.
                 </p>

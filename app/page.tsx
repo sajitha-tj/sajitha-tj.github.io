@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="relative mx-auto">
       <Hero />
-      <div className="md:px-40 px-10">
+      <div className="md:px-40 px-4">
         <About />
         <Resume />
         <Projects />
