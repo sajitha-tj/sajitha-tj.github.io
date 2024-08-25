@@ -5,7 +5,7 @@ import { LayoutGrid } from './ui/layout-grid';
 import { IoLogoJavascript } from 'react-icons/io5';
 import { FaFigma, FaPython, FaReact } from 'react-icons/fa6';
 import { SiAdobeillustrator, SiAdobephotoshop, SiGnubash, SiMui } from 'react-icons/si';
-import { RiJavaLine, RiNextjsFill } from 'react-icons/ri';
+import { RiJavaLine } from 'react-icons/ri';
 
 type Card = {
   id: number;
@@ -51,7 +51,7 @@ const Projects = () => {
             <div className='h-[3px] w-10 bg-violet-600 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' />
         </div>
       </div>
-      <p className='text-center mb-8'>Explore my work in software development, cybersecurity, and graphic designing.</p>
+      <p className='text-center mb-8'>Explore my work in software development, web development and graphic designing.</p>
       {/* filter buttons */}
       <div className='w-full flex justify-center gap-4 tracking-wider mb-3'>
         {projectFilters.map((filter, i) => (
@@ -81,8 +81,8 @@ const cards = [
     description: 'PosturePulse is an AI-based physiotherapy assistant that provides real-time feedback and personalized exercise programs to help users improve their posture and alleviate pain.',
     category: "Web",
     thumbnail: "/images/projects/posturepulse-image.png",
-    icons: <> <RiNextjsFill/><FaReact /><IoLogoJavascript /> </>,
-    link: "https://github.com/sajitha-tj/posture-pulse-web"
+    icons: <> <FaReact /><IoLogoJavascript /> </>,
+    link: "https://github.com/TeamRedshifts/posture-pulse-frontend"
   },
   {
     id: 2,

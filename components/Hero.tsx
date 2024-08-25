@@ -18,21 +18,21 @@ const Hero = () => {
             </div>
             {/* links */}
             <div className='w-full flex justify-center md:justify-start'>
-            <div className='mt-3 text-lg w-fit flex gap-4'>
-                <a href='https://github.com/sajitha-tj/' className='transition-colors hover:text-violet-300 duration-100' target='_blank'>
-                    <FaGithub />
-                </a>
-                <a href='https://www.linkedin.com/in/sajitha-tj/' className='transition-colors hover:text-violet-300 duration-100' target='_blank'>
-                    <FaLinkedin />
-                </a>
-                <a href='https://www.behance.net/sajitha_jayawickrama' className='transition-colors hover:text-violet-300 duration-100' target='_blank'>
-                    <FaBehance />
-                </a>
-                <a href='mailto:sajitha.21@cse.mrt.ac.lk' className='transition-colors hover:text-violet-300 duration-100' target='_blank'>
-                    <LuMail />
-                </a>
+                <div className='mt-3 text-lg w-fit flex gap-4'>
+                    <a href='https://github.com/sajitha-tj/' className='transition-colors hover:text-violet-300 duration-100' target='_blank'>
+                        <FaGithub />
+                    </a>
+                    <a href='https://www.linkedin.com/in/sajitha-tj/' className='transition-colors hover:text-violet-300 duration-100' target='_blank'>
+                        <FaLinkedin />
+                    </a>
+                    <a href='https://www.behance.net/sajitha_jayawickrama' className='transition-colors hover:text-violet-300 duration-100' target='_blank'>
+                        <FaBehance />
+                    </a>
+                    <a href='mailto:sajitha.21@cse.mrt.ac.lk' className='transition-colors hover:text-violet-300 duration-100' target='_blank'>
+                        <LuMail />
+                    </a>
+                </div>
             </div>
-        </div>
         </div>
         <BackgroundBeams />
     </div>
