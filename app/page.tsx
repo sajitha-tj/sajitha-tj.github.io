@@ -1,5 +1,4 @@
 import About from "@/components/About";
-import ComingSoon from "@/components/ComingSoon";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
