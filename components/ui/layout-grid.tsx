@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
 import { FaGithub, FaGlobe, FaSquareBehance } from "react-icons/fa6";
-import { IoCloseCircleOutline, IoLogoJavascript } from "react-icons/io5";
+import { IoCloseCircleOutline } from "react-icons/io5";
 
 type Card = {
   id: number;
@@ -75,7 +75,7 @@ const ImageComponent = ({ card }: { card: Card }) => {
       className={cn(
         "object-cover object-top absolute inset-0 h-full w-full transition duration-200"
       )}
-      alt="thumbnail"
+      alt={`${card.name} thumnail`}
     />
   );
 };
@@ -93,9 +93,9 @@ const SelectedCard = ({ selected, handleClose }: { selected: Card | null; handle
         className="absolute inset-0 h-full w-full bg-black opacity-75 z-10"
       />
       {/* close Btn */}
-      <div className="text-white absolute top-4 right-4 z-[70]">
+      {/* <div className="text-white absolute top-4 right-4 z-[70]">
           <button onClick={handleClose}><IoCloseCircleOutline className="text-xl"/></button>
-      </div>
+      </div> */}
       <motion.div
         layoutId={`content-${selected?.id}`}
         initial={{
