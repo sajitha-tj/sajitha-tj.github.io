@@ -57,9 +57,9 @@ let resumeItems = [
             title : "Certifications",
             items: [
                 {
-                    itemHeading : "Javascript (Basic) Certification",
+                    itemHeading : "Javascript (Intermediate) Certification",
                     itemSubHeading : "Offered by HackerRank",
-                    link: "https://www.hackerrank.com/certificates/0dbbf850a956",
+                    link: "https://www.hackerrank.com/certificates/39d9442fde83",
                 },
                 {
                     itemHeading : "Python (Basic) Certification",

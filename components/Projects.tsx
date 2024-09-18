@@ -6,6 +6,7 @@ import { IoLogoJavascript } from 'react-icons/io5';
 import { FaFigma, FaPython, FaReact } from 'react-icons/fa6';
 import { SiAdobeillustrator, SiAdobephotoshop, SiGnubash, SiMui } from 'react-icons/si';
 import { RiJavaLine } from 'react-icons/ri';
+import { ProjectGrid } from './ui/project-grid';
 
 type Card = {
   id: number;
@@ -67,7 +68,8 @@ const Projects = () => {
       {/* grid */}
       {/* style={{height:`${Math.ceil(gridItems.length/3) * 250}px`}} */}
       <div>
-        <LayoutGrid cards={gridItems} />
+        {/* <LayoutGrid cards={gridItems} /> */}
+        <ProjectGrid cards={gridItems} />
       </div>
     </div>
   )
@@ -138,7 +140,7 @@ const cards = [
     id: 7,
     className: " ",
     name: "Stride Mobile App UI",
-    description: '',
+    description: "Stride An innovative mobile-first solution simplifying interplanetary travel booking. Our team BrainLeftException's entry for TechTriathlon 2023, securing 1st runners-up position.",
     category: "Design",
     thumbnail: "/images/projects/stride-image.png",
     icons: <FaFigma />,
