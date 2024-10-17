@@ -92,6 +92,11 @@ let resumeItems = [
             title : "Awards",
             items: [
                 {
+                    itemHeading : "2nd Runners Up at Bashaway 2024",
+                    itemSubHeading : "Organized by SLIIT FOSS Community",
+                    link: "",
+                },
+                {
                     itemHeading : "2nd Runners Up at Brainstorm 2024",
                     itemSubHeading : "Organized by IEEE EMBS of UoM",
                     link: "",
