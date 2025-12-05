@@ -37,7 +37,19 @@ const Resume = () => {
   )
 }
 
-let resumeItems = [
+type ResumeSubItem = {
+    itemHeading: string;
+    itemSubHeading: string;
+    link: string;
+    timePeriod?: string;
+}
+
+type ResumeCategory = {
+    title: string;
+    items: ResumeSubItem[];
+}
+
+const resumeItems: ResumeCategory[] = [
         {
             title : "Education",
             items: [
@@ -170,5 +182,5 @@ let resumeItems = [
         },
         
     ]
-
+    
 export default Resume
