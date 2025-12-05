@@ -23,6 +23,7 @@ const Resume = () => {
                         </h4>
                         <h5 className='inline-flex max-w-[90%]'>
                             {item.itemSubHeading}
+                            {item.timePeriod ? <span className='ml-2 text-xs pt-0.5 text-gray-600'>({item.timePeriod})</span> : null}
                             {item.link != "" ?
                             <a className='ml-1 text-sm' href={item.link} target='_blank'><TbExternalLink /></a>
                             : ""}
@@ -50,6 +51,24 @@ let resumeItems = [
                     itemSubHeading : "Mahinda College - Galle",
                     link: "",
                 },
+                
+            ]
+        },
+        {
+            title : "Experience",
+            items: [
+                {
+                    itemHeading : "Software Engineer (Part-time)",
+                    itemSubHeading : "Concolabs",
+                    link: "",
+                    timePeriod: "Jun 2025 - Present",
+                },
+                {
+                    itemHeading : "Software Engineer Intern",
+                    itemSubHeading : "WSO2",
+                    link: "",
+                    timePeriod: "Dec 2024 - May 2025",
+                }
                 
             ]
         },
@@ -116,11 +135,11 @@ let resumeItems = [
                     itemSubHeading : "Organized by University of Kelaniya",
                     link: "",
                 },
-                {
-                    itemHeading : "Best Web Developer of the year 2019",
-                    itemSubHeading : "Annual Prize Distribution of Mahinda College, 2020",
-                    link: "",
-                },
+                // {
+                //     itemHeading : "Best Web Developer of the year 2019",
+                //     itemSubHeading : "Annual Prize Distribution of Mahinda College, 2020",
+                //     link: "",
+                // },
                 
             ]
         },
